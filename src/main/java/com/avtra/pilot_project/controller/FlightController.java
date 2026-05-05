@@ -10,7 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/flights")
-@CrossOrigin(origins = "http://localhost:5173") // Allow requests from Vite frontend
+@CrossOrigin(origins = {"http://127.0.0.1:8080", "http://localhost:8080"})
+
 public class FlightController {
 
     private final FlightService flightService;

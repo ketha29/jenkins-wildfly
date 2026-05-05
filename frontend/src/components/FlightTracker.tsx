@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { PlaneTakeoff, PlaneLanding, Search, Clock, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { PlaneTakeoff, Search, Clock, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 interface Flight {
   flightNumber: string;
