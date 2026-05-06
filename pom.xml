@@ -66,8 +66,7 @@
 				<configuration>
 					<hostname>localhost</hostname>
 					<port>9990</port>
-					<username>ketha29</username>
-					<password>12345678</password>
+					<id>wildfly-server</id>
 				</configuration>
 			</plugin>
 
