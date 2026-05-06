@@ -61,6 +61,17 @@
 			</plugin>
 
 			<plugin>
+				<groupId>org.wildfly.plugins</groupId>
+				<artifactId>wildfly-maven-plugin</artifactId>
+				<configuration>
+					<hostname>localhost</hostname>
+					<port>9990</port>
+					<username>admin</username>
+					<password>Kketha29092001$</password>
+				</configuration>
+			</plugin>
+
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
