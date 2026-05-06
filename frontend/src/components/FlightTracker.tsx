@@ -24,7 +24,7 @@ const FlightTracker: React.FC = () => {
   const fetchFlights = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:8080/api/flights');
+      const response = await fetch('http://localhost:9090/api/flights');
       if (!response.ok) throw new Error('Failed to fetch flights');
       const data = await response.json();
       setFlights(data);
